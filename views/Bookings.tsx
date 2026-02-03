@@ -39,7 +39,7 @@ export const Bookings: React.FC = () => {
         <p className="text-gray-500 italic max-w-md mx-auto mb-8">
           Thank you for reaching out. We will review your vision and get back to you within 2-3 business days to discuss the details.
         </p>
-        <button 
+        <button
           onClick={() => setSubmitted(false)}
           className="text-sm uppercase tracking-widest border-b border-black pb-1 hover:text-[#D4C4B5] hover:border-[#D4C4B5]"
         >
@@ -91,7 +91,7 @@ export const Bookings: React.FC = () => {
 
             <div className="mt-20 p-8 border border-[#D4C4B5]/20 bg-[#FAF9F6] italic rounded-lg">
               <p className="text-gray-500 text-sm leading-relaxed">
-                "My commission was more than just a purchase; it was a conversation. Tanya translated my memories into a beautiful ceramic form."
+                "My commission was more than just a purchase; it was a conversation. The studio translated my memories into a beautiful ceramic form."
               </p>
               <p className="mt-4 text-[10px] uppercase tracking-widest font-bold">— Sarah J., New York</p>
             </div>
@@ -103,30 +103,30 @@ export const Bookings: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-2">Your Name</label>
-                  <input 
+                  <input
                     required
-                    type="text" 
+                    type="text"
                     value={formData.name}
-                    onChange={e => setFormData({...formData, name: e.target.value})}
-                    className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]" 
+                    onChange={e => setFormData({ ...formData, name: e.target.value })}
+                    className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]"
                   />
                 </div>
                 <div>
                   <label className="block text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-2">Email Address</label>
-                  <input 
+                  <input
                     required
-                    type="email" 
+                    type="email"
                     value={formData.email}
-                    onChange={e => setFormData({...formData, email: e.target.value})}
-                    className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]" 
+                    onChange={e => setFormData({ ...formData, email: e.target.value })}
+                    className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]"
                   />
                 </div>
               </div>
               <div>
                 <label className="block text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-2">Service Interest</label>
-                <select 
+                <select
                   value={formData.service}
-                  onChange={e => setFormData({...formData, service: e.target.value})}
+                  onChange={e => setFormData({ ...formData, service: e.target.value })}
                   className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]"
                 >
                   <option>Custom Ceramics</option>
@@ -137,24 +137,24 @@ export const Bookings: React.FC = () => {
               </div>
               <div>
                 <label className="block text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-2">Desired Delivery Date</label>
-                <input 
-                  type="date" 
+                <input
+                  type="date"
                   value={formData.date}
-                  onChange={e => setFormData({...formData, date: e.target.value})}
-                  className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]" 
+                  onChange={e => setFormData({ ...formData, date: e.target.value })}
+                  className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]"
                 />
               </div>
               <div>
                 <label className="block text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-2">Vision & Details</label>
-                <textarea 
-                  rows={5} 
+                <textarea
+                  rows={5}
                   placeholder="Tell me about your vision, colors, and the story behind this request..."
                   value={formData.message}
-                  onChange={e => setFormData({...formData, message: e.target.value})}
+                  onChange={e => setFormData({ ...formData, message: e.target.value })}
                   className="w-full bg-gray-50 border-gray-100 p-4 text-sm focus:outline-none focus:ring-1 focus:ring-[#D4C4B5]"
                 ></textarea>
               </div>
-              <button 
+              <button
                 type="submit"
                 className="w-full bg-[#2D2926] text-white py-5 uppercase tracking-[0.2em] text-xs hover:bg-black transition-all shadow-lg"
               >

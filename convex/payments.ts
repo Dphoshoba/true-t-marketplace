@@ -10,7 +10,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "sk_test_placeholder"
 });
 
 /**
- * Creates a Stripe Connect Account for the seller (Tanya)
+ * Creates a Stripe Connect Account for the seller
  * and generates an account link for onboarding.
  */
 export const createStripeConnectAccount = action({
@@ -73,7 +73,7 @@ export const createCheckoutSession = action({
 
             const priceInCents = Math.round(args.price * 100);
 
-            const platformFee = Math.round(priceInCents * 0.10); // 10% (5% Tanya + 5% Platform)
+            const platformFee = Math.round(priceInCents * 0.10); // 10% (5% Studio + 5% Platform)
 
             const session = await stripe.checkout.sessions.create({
                 mode: "payment",
