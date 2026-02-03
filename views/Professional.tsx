@@ -47,7 +47,7 @@ export const Professional: React.FC = () => {
             Protect Your <span className="text-[#D4C4B5]">Craft.</span> <br />Simplify Your Sales.
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl italic font-light leading-relaxed">
-            The only marketplace where your $100 sale results in $90 in your pocket. No AI, no hidden percentages, just honest trade.
+            The only marketplace where artists keep up to 95% of their sale. No AI, no hidden percentages, just honest trade.
           </p>
         </div>
       </header>
@@ -81,9 +81,9 @@ export const Professional: React.FC = () => {
                     <Coins className="w-5 h-5 text-[#273134]" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-serif italic mb-2">2. The Flat 10% Fee</h4>
+                    <h4 className="text-xl font-serif italic mb-2">2. The Fair Fee Standard</h4>
                     <p className="text-sm text-gray-500 italic leading-relaxed">
-                      Most platforms take 15-20%. We take a transparent 10% commission. Period. No subscription costs.
+                      Most platforms take 15-20%. We take 5-10% depending on your partner tier. No hidden listing or subscription costs.
                     </p>
                   </div>
                 </div>
@@ -119,11 +119,11 @@ export const Professional: React.FC = () => {
                   <h5 className="text-2xl font-serif italic mb-2">True T Marketplace</h5>
                   <p className="text-xs text-gray-400 uppercase tracking-widest">
                     Typical Sale: $100<br />
-                    Fixed Commission: $10.00<br />
-                    <span className="text-green-400">Net Profit: $90.00</span>
+                    Principal Studio Profit: <span className="text-green-400 font-bold">$95.00</span> (5% Fee)<br />
+                    Independent Trader Profit: <span className="text-[#D4C4B5] font-bold">$90.00</span> (10% Fee)
                   </p>
                   <div className="mt-6 flex items-center text-[10px] font-bold uppercase tracking-widest text-[#D4C4B5]">
-                    <Zap className="w-4 h-4 mr-2" /> 15% Higher Profits
+                    <Zap className="w-4 h-4 mr-2" /> Up to 18% Higher Profits
                   </div>
                 </div>
               </div>

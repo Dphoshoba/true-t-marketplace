@@ -42,7 +42,7 @@ export const Home: React.FC = () => {
               Find * Create <br /><span className="italic serif text-[#D4C4B5]">Buy * Sell</span>
             </h1>
             <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-xl italic">
-              True T is a marketplace built by humans, for humans. No AI products, no hidden fees—just 10% commission for sellers.
+              True T is a marketplace built by humans, for humans. No AI products, no hidden fees—just 5-10% commission for sellers.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <Link
@@ -80,9 +80,9 @@ export const Home: React.FC = () => {
               <div className="w-12 h-12 bg-[#D4C4B5] text-[#273134] flex items-center justify-center rounded-full">
                 <Award className="w-6 h-6" />
               </div>
-              <h3 className="text-3xl font-serif italic">Fair 10% Fee</h3>
+              <h3 className="text-3xl font-serif italic">Fair 5-10% Fee</h3>
               <p className="text-gray-500 italic text-sm leading-relaxed">
-                Creators keep 90% of their profits. We take a flat 10% commission to power the platform. No hidden subscription costs.
+                Creators keep up to 95% of their profits. We take a minimal commission to power the platform. No hidden subscription costs.
               </p>
             </div>
             <div className="space-y-6">

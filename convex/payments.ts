@@ -73,7 +73,11 @@ export const createCheckoutSession = action({
 
             const priceInCents = Math.round(args.price * 100);
 
-            const platformFee = Math.round(priceInCents * 0.10); // 10% (5% Studio + 5% Platform)
+            // Conditional Fee Split: 
+            // 5% if it's T's Studio (Principal), 10% for Independent Traders
+            const PRINCIPAL_STUDIO_ID = "acct_1SjGuQC0JO40R9i4";
+            const feeRate = (args.stripeAccountId === PRINCIPAL_STUDIO_ID) ? 0.05 : 0.10;
+            const platformFee = Math.round(priceInCents * feeRate);
 
             const session = await stripe.checkout.sessions.create({
                 mode: "payment",
