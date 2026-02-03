@@ -47,7 +47,7 @@ export const Professional: React.FC = () => {
             Protect Your <span className="text-[#D4C4B5]">Craft.</span> <br />Simplify Your Sales.
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl italic font-light leading-relaxed">
-            The only marketplace where your $100 sale results in $95 in your pocket. No AI, no hidden percentages, just honest trade.
+            The only marketplace where your $100 sale results in $90 in your pocket. No AI, no hidden percentages, just honest trade.
           </p>
         </div>
       </header>
@@ -179,10 +179,10 @@ export const Professional: React.FC = () => {
                   disabled={isProcessing !== null || userPlan === plan.id}
                   onClick={() => handleSelectPlan(plan.id, plan.name)}
                   className={`w-full py-6 uppercase tracking-[0.2em] text-[10px] font-bold transition-all ${userPlan === plan.id
-                      ? 'bg-green-600 text-white'
-                      : !agreedToTerms
-                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                        : 'bg-[#273134] text-white hover:bg-black shadow-lg'
+                    ? 'bg-green-600 text-white'
+                    : !agreedToTerms
+                      ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                      : 'bg-[#273134] text-white hover:bg-black shadow-lg'
                     }`}
                 >
                   {isProcessing === plan.id ? <Loader2 className="w-4 h-4 animate-spin mx-auto" /> : userPlan === plan.id ? 'Active Partner' : 'Start Selling'}
@@ -219,7 +219,7 @@ export const Professional: React.FC = () => {
                 <h4 className="font-serif italic text-2xl text-[#273134] mt-12 mb-4">II. Zero AI Tolerance</h4>
                 <p>In a world of synthetic generation, we remain intentionally primitive. We prohibit the use of AI-generated visuals, prompts, or computational designs disguised as manual craft. True T is a purely organic ecosystem.</p>
                 <h4 className="font-serif italic text-2xl text-[#273134] mt-12 mb-4">III. The Fair Fee Standard</h4>
-                <p>We reject the extractive pricing models of legacy platforms. A flat $5 commission ensures that the value created in the studio remains with the artisan, supporting the continuation of traditional skills.</p>
+                <p>We reject the extractive pricing models of legacy platforms. A flat 10% commission ensures that the value created in the studio remains with the artisan, supporting the continuation of traditional skills.</p>
                 <h4 className="font-serif italic text-2xl text-[#273134] mt-12 mb-4">IV. Radical Transparency</h4>
                 <p>Collectors deserve the truth. Every listing must honestly represent its materials, process, and origin. No deception. No noise. Just pure provenance.</p>
               </div>
