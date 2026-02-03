@@ -1,0 +1,9 @@
+{
+  "name": "True T Marketplace",
+  "description": "A professional, human-centric marketplace for artists and creators to sell handmade work with transparent $5 fees.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
