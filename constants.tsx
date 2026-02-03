@@ -86,7 +86,7 @@ const INITIAL_POSTS: BlogPost[] = [
     title: 'New Drop: The Sterling & Stone Series',
     excerpt: 'Exploring the latest collection of hand-forged jewelry from the studio.',
     content: 'A deep dive into the Royston turquoise used in this months release...',
-    author: 'Tanya',
+    author: "T's Studio",
     date: '2024-05-20',
     category: 'Process',
     readingTime: '4 min',
@@ -105,7 +105,7 @@ const INITIAL_PROJECTS: Project[] = [
     year: '2024',
     description: 'A documentary series on the makers behind our woodwork collection.',
     image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=1200',
-    challenge: 'Highlighting the manual effort behind the $5 fee.',
+    challenge: 'Highlighting the manual effort behind the 10% commission model.',
     outcome: 'Increased seller visibility by 40%.'
   }
 ];
@@ -116,7 +116,7 @@ const INITIAL_PLANS: PricingPlan[] = [
     name: 'The Maker',
     price: '5',
     interval: 'month',
-    features: ['Flat $5 Fee per Sale', 'Handmade Guarantee', 'Basic Storefront', 'Global Shipping Support']
+    features: ['Flat 10% Fee per Sale', 'Handmade Guarantee', 'Basic Storefront', 'Global Shipping Support']
   },
   {
     id: '2',
@@ -140,7 +140,7 @@ const INITIAL_TEAM: TeamMember[] = [
 
 const INITIAL_SERVICES: Service[] = [
   { id: '1', title: 'Curation', description: 'We manually review every product for handmade authenticity.', icon: 'Check' },
-  { id: '2', title: 'Fair Fee Structure', description: 'Only $5 per sale goes to True T. The rest is yours.', icon: 'DollarSign' }
+  { id: '2', title: 'Fair Fee Structure', description: 'Only 10% per sale goes to True T. The rest is yours.', icon: 'DollarSign' }
 ];
 
 const INITIAL_TESTIMONIALS: Testimonial[] = [
